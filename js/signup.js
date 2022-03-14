@@ -15,7 +15,5 @@ create.addEventListener('click', function (e) {
         localStorage.setItem('user', JSON.stringify({ username: user, password: password }));
         window.location.href = "../signin.html";
     }
-    // console.log(parseStor.username);
-    // console.log(localStorage.getItem('user'));;
 })
 console.log('connected with signin');
