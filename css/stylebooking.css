@@ -1,0 +1,102 @@
+.booking-page{
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+.booking-container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding-bottom: 10%;
+    /* padding: 10rem; */
+    border-radius: 70px;
+}
+.welcome-msg{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+.booking-section{
+    border: 1px solid black;
+    margin: 25px;
+    padding: 5px;
+    width: 30%;
+    padding: 20px 10px;
+    display: flex;
+
+    flex-direction: column;
+    /* height: 300px; */
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+/* .col-1{
+    display: flex;
+    margin-right: 10px;
+} */
+.mid-col{
+    margin-right: 40px;
+}
+.seat{
+    width: 70px;
+    background-color: aquamarine;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+/* .seat-col-one{
+    margin-right: 10px;
+} */
+.seat.booked{
+    background-color:lightcoral
+}
+.seat.selected{
+    background-color:lightcoral;
+}
+.btn-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.book-btn{
+    padding: 5px 40px;
+}
+.cancel-btn{
+    padding: 5px 40px;
+}
+
+.occupied{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.occupied div{
+    width: 50px;
+    height: 20px;
+    background-color: lightpink;
+    margin-right: 10px;
+}
+.available{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.available div{
+    width: 50px;
+    height: 20px;
+    background-color: lightblue;
+    margin-right: 10px;
+}
